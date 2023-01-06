@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Spartan:wght@100;400;700;900&display=swap');
+
+:root {
+    --corPrimaria: rgb(248, 239, 234);
+    --corSecundaria: rgb(233, 225, 217);
+    --corTercearia: rgb(31, 184, 82);
+}
+
+* {
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: var(--corPrimaria);
+
+}
+
+h1 {
+    text-align: center;
+    color: var(--corTercearia);
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+div {
+    line-height: 1.4em;
+    font-size: 2rem;
+    padding-bottom: 1.5em;
+    text-align: center;
+
+}
+
+
+
+.main {
+    border-radius: 10px;
+    box-shadow: 3px 2px 10px 1px rgb(167, 166, 166);
+    padding: 22px;
+    max-width: 640px;
+    margin: 50px auto;
+    background: var(--corSecundaria);
+}
+.timer {
+    font-size: 3.5rem;
+}
+.buttons{
+    text-align: center;
+}
+.buttons button{
+    letter-spacing: 1.5px;
+    font-family: 'Orbitron';
+    cursor: pointer;
+    text-transform: uppercase;
+    border:solid 0.5px;
+    border-color: var(--corTercearia);
+    color: var(--corTercearia);
+    border-radius: 5px;
+    background: var(--corSecundaria);
+    font-size: 1rem;
+    padding: 7px;
+    transition: all 200ms ease-in-out;
+}
+.buttons button:hover{
+    background: var(--corTercearia);
+    color: var(--corPrimaria);
+}
+
+.pause {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.pausado{
+    color: red;
+}
