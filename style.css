@@ -43,7 +43,7 @@ div {
     padding: 22px;
     max-width: 640px;
     margin: 50px auto;
-    background: var(--corSecundaria);
+    background: #212124;
 }
 .timer {
     font-size: 3.5rem;
